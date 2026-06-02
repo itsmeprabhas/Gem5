@@ -35,7 +35,7 @@ scons build/X86/gem5.opt -j 20
 build/X86/gem5.opt configs/deprecated/example/se.py --cmd=<path_to_deepsjeng> --ruby --l1i_size=8kB --l1i_assoc=2 --l1d_size=16kB --l1d_assoc=2 --l2_size=2MB --l2_assoc=4 --mem-type=HBM_1000_4H_1x64 --fast-forward=1000000 --maxinsts=10000000
 ```
 3. Run the NVM Simulation (ReRAM)
-bash```
+```bash
 build/X86/gem5.opt configs/deprecated/example/se.py --cmd=<path_to_deepsjeng> --ruby --l1i_size=8kB --l1i_assoc=2 --l1d_size=16kB --l1d_assoc=2 --l2_size=2MB --l2_assoc=4 --mem-type=NVM_ReRAM --fast-forward=1000000 --maxinsts=10000000
 ```
 Tech Stack
