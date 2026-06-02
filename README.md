@@ -39,6 +39,7 @@ build/X86/gem5.opt configs/deprecated/example/se.py --cmd=<path_to_deepsjeng> --
 build/X86/gem5.opt configs/deprecated/example/se.py --cmd=<path_to_deepsjeng> --ruby --l1i_size=8kB --l1i_assoc=2 --l1d_size=16kB --l1d_assoc=2 --l2_size=2MB --l2_assoc=4 --mem-type=NVM_ReRAM --fast-forward=1000000 --maxinsts=10000000
 ```
 **Tech Stack**
+
 Languages: C++, Python, Bash/Shell
 Tools & Frameworks: Gem5 Simulator, SPEC 2017 Benchmarks, Linux, Git
 Concepts: Computer Architecture, Memory Hierarchies (L1/L2), Non-Volatile Memory (NVM), Performance Profiling
