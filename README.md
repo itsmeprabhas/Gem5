@@ -41,5 +41,7 @@ build/X86/gem5.opt configs/deprecated/example/se.py --cmd=<path_to_deepsjeng> --
 **Tech Stack**
 
 Languages: C++, Python, Bash/Shell
+
 Tools & Frameworks: Gem5 Simulator, SPEC 2017 Benchmarks, Linux, Git
+
 Concepts: Computer Architecture, Memory Hierarchies (L1/L2), Non-Volatile Memory (NVM), Performance Profiling
